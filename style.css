@@ -44,20 +44,20 @@ body{
     box-shadow: black 0px 0px 10px 5px;
     border-radius: 10px;
     position: absolute;
-    padding: 20px;
+    padding: 30px;
     top: 10%;
-    left: 15%;
+    left: 16%;
     display: flex;
+    justify-content: space-between;
 }
 
 .content .para h1{
-    font-size: 20px;
-
+    font-size: 32px;
 }
 
 .para{
     max-width: 50%;
-    font-size: 12px;
+    font-size: 20px;
 
 }
 
@@ -67,24 +67,24 @@ body{
 }
 
 .image{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     position: relative;
-    bottom: 50px;
-    left: 100px;
+    bottom: 60px;
+    left: 120px;
 }
 
 .image img{
     height: 70%;
     width: 100%;
-    transition: all 0.1s ease;
+    transition: all 0.2s ease;
 }
 
 
 .image img:hover{
     cursor: pointer;
-    scale: 1.5;
-    transform: translate(-40px, 40px);
+    scale: 1.6;
+    transform: translate(-120px, 100px);
 }
 
 .divider{
